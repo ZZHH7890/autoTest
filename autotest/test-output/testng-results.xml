@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1137" started-at="2017-12-23T08:39:38Z" finished-at="2017-12-23T08:39:39Z">
+  <suite name="Default suite" duration-ms="1147" started-at="2017-12-25T08:49:21Z" finished-at="2017-12-25T08:49:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1137" started-at="2017-12-23T08:39:38Z" finished-at="2017-12-23T08:39:39Z">
+    <test name="Default test" duration-ms="1147" started-at="2017-12-25T08:49:21Z" finished-at="2017-12-25T08:49:22Z">
       <class name="autotest.autotest.GetDemo">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="87" started-at="2017-12-23T16:39:38Z" finished-at="2017-12-23T16:39:38Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="beforeClass" is-config="true" duration-ms="74" started-at="2017-12-25T16:49:21Z" finished-at="2017-12-25T16:49:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-12-23T16:39:38Z" finished-at="2017-12-23T16:39:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getDemoTest()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="getDemoTest" duration-ms="1022" started-at="2017-12-23T16:39:38Z" finished-at="2017-12-23T16:39:39Z">
+        <test-method status="PASS" signature="getDemoTest()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="getDemoTest" duration-ms="1051" started-at="2017-12-25T16:49:21Z" finished-at="2017-12-25T16:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDemoTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-12-23T16:39:39Z" finished-at="2017-12-23T16:39:39Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-25T16:49:21Z" finished-at="2017-12-25T16:49:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-23T16:39:39Z" finished-at="2017-12-23T16:39:39Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-12-25T16:49:22Z" finished-at="2017-12-25T16:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:autotest.autotest.GetDemo@59fa1d9b]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-12-25T16:49:22Z" finished-at="2017-12-25T16:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
       </class> <!-- autotest.autotest.GetDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
