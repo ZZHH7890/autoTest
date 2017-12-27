@@ -1,0 +1,33 @@
+2017-12-26 10:52:13,359 INFO  [Log] [{"id":22348,"phone":"13714672776","contact":"1","gender":0,"village":"东角山","building":"自动化测试楼栋C栋（勿删）","room":"","address":"深圳市南山区东角山自动化测试楼栋C栋（勿删）1111","buy_way":0,"defaultAddr":true,"regionId":813395,"city1":"深圳市南山区","room1":"1111","latitude":22.40896,"longitude":113.8261,"isValidate":0,"addressBuildingId":256,"addressNaviId":18039,"realVillage":"东角山"}] 
+2017-12-26 15:26:47,319 INFO  [Log] [{"id":22348,"phone":"13714672776","contact":"1","gender":0,"village":"东角山","building":"自动化测试楼栋C栋（勿删）","room":"","address":"深圳市南山区东角山自动化测试楼栋C栋（勿删）1111","buy_way":0,"defaultAddr":true,"regionId":813395,"city1":"深圳市南山区","room1":"1111","latitude":22.40896,"longitude":113.8261,"isValidate":0,"addressBuildingId":256,"addressNaviId":18039,"realVillage":"东角山"}] 
+2017-12-26 16:56:45,506 INFO  [Log] {"statusCode":0,"msg":"成功","data":{"id":22349,"phone":"13414672775","contact":"大爷134","gender":1,"village":"东角山","building":"自动化测试楼栋C栋（勿删）","room":"","address":"深圳市南山区东角山自动化测试楼栋C栋（勿删）1123Az","buy_way":0,"defaultAddr":true,"regionId":813395,"city1":"深圳市南山区","room1":"1123Az","latitude":22.408965,"longitude":113.826119,"isValidate":0,"addressBuildingId":256,"addressNaviId":18039,"realVillage":"东角山"},"success":true} 
+2017-12-27 17:35:33,904 INFO  [Log] {"statusCode":0,"msg":"登录成功","id":"73993","type":0,"token":"b4b66d4b-e4dc-4f46-afb5-cb0f7982ba39","expiresIn":0,"openId":"00046e4077b75f803de6a6d28bbf5b7e","pass":"a-64f4-cd4","newUser":false,"success":true} 
+2017-12-27 17:36:47,512 INFO  [Log] cde54686-f094-4d78-ab98-1d81433d813c 
+2017-12-27 17:37:07,835 INFO  [Log] a3bbe635-8696-4268-aa54-3824cb648d6b 
+2017-12-27 19:04:27,841 INFO  [Log] afe6b520-ad42-4b0d-9784-f4165623aa2a 
+2017-12-27 19:09:55,021 INFO  [Log] 684f9092-9126-4cb0-ada1-d9d19b5ceb5a 
+2017-12-27 20:19:42,206 INFO  [Log] 获取用户token执行失败！！ 
+2017-12-27 20:19:42,211 INFO  [Log] =========================表格测试数据写入开始========================= 
+2017-12-27 20:19:42,212 INFO  [Log] 测试数据表格：C:\Users\Administrator\eclipse-workspace\autoTest\autotest\TestData\testData.xlsx 
+2017-12-27 20:19:42,212 INFO  [Log] 读取sheet: api 
+2017-12-27 20:19:42,944 INFO  [Log] 数据写入表格失败！！ 
+2017-12-27 20:19:42,945 INFO  [Log] =========================表格测试数据写入结束========================= 
+2017-12-27 20:19:42,946 INFO  [Log] 用户token写入excel成功！ 
+2017-12-27 20:20:07,016 INFO  [Log] 获取用户token执行失败！！ 
+2017-12-27 20:20:07,022 INFO  [Log] =========================表格测试数据写入开始========================= 
+2017-12-27 20:20:07,022 INFO  [Log] 测试数据表格：C:\Users\Administrator\eclipse-workspace\autoTest\autotest\TestData\testData.xlsx 
+2017-12-27 20:20:07,022 INFO  [Log] 读取sheet: api 
+2017-12-27 20:20:07,845 INFO  [Log] =========================表格测试数据写入结束========================= 
+2017-12-27 20:20:07,845 INFO  [Log] 用户token写入excel成功！ 
+2017-12-27 20:25:54,092 INFO  [Log] 获取用户token执行失败！！ 
+2017-12-27 20:25:54,097 INFO  [Log] =========================token写入开始========================= 
+2017-12-27 20:25:54,098 INFO  [Log] 测试数据表格：C:\Users\Administrator\eclipse-workspace\autoTest\autotest\TestData\testData.xlsx 
+2017-12-27 20:25:54,098 INFO  [Log] 读取sheet: api 
+2017-12-27 20:25:54,950 INFO  [Log] =========================token写入结束========================= 
+2017-12-27 20:25:54,950 INFO  [Log] 用户token写入excel成功！ 
+2017-12-27 20:30:08,505 INFO  [Log] 22064cdc-a757-44a1-98b7-36ffe039ccba 
+2017-12-27 20:30:08,518 INFO  [Log] =========================token写入开始========================= 
+2017-12-27 20:30:08,518 INFO  [Log] 测试数据表格：C:\Users\Administrator\eclipse-workspace\autoTest\autotest\TestData\testData.xlsx 
+2017-12-27 20:30:08,518 INFO  [Log] 读取sheet: api 
+2017-12-27 20:30:09,341 INFO  [Log] =========================token写入结束========================= 
+2017-12-27 20:30:09,341 INFO  [Log] 用户token写入excel成功！ 
