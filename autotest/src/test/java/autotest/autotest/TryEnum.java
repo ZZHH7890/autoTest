@@ -2,7 +2,7 @@ package autotest.autotest;
 
 import org.apache.log4j.xml.DOMConfigurator;
 
-import autotest.autotest.common.Config;
+import autotest.autotest.common.Init;
 
 /**
  * @author 张大爷
@@ -16,7 +16,7 @@ public class TryEnum {
 		DOMConfigurator.configure("log4j.xml");
 		// TODO Auto-generated method stub
 		System.out.println(ApiEnum.LOGIN.getApiRow());
-		Config.initToken();
+		Init.initToken();
 		
 	}
 

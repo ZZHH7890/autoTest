@@ -1,4 +1,4 @@
-package autotest.autotest.common;
+package autotest.autotest.utils;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -24,7 +24,7 @@ public class HandlerExcel {
 
 	// 向表格单元格中写入token数据
 	public static void setTokenToCell(String excelPath, String excelName, String excelConfigSheet, String data) {
-		Log.info("=========================token写入开始=========================");
+		Log.info("=========================操作token开始=========================");
 		File file = new File(excelPath + "\\" + excelName);
 		Log.info("测试数据表格：" + file.toString());
 		Log.info("读取sheet: " + excelConfigSheet);
@@ -58,7 +58,7 @@ public class HandlerExcel {
 			Log.info(failString);
 			e.printStackTrace();
 		}
-		Log.info("=========================token写入结束=========================");
+		Log.info("=========================操作token结束=========================");
 	}
 
 	// 获取接口信息

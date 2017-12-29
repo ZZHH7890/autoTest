@@ -1,4 +1,4 @@
-package autotest.autotest.common;
+package autotest.autotest.enums;
 
 /**
  * @author 张大爷
@@ -7,7 +7,9 @@ package autotest.autotest.common;
  * @automation
  */
 public enum ApiEnum {
-	ADD_ADDRESS(5), DELETE_ADDRESS(6), ADDRESS_LIST(7);
+	ADD_ADDRESS(5), // 增加地址接口
+	DELETE_ADDRESS(6), // 删除地址接口
+	ADDRESS_LIST(7); // 获取地址列表接口
 
 	ApiEnum(int apiRow) {
 		this.apiRow = apiRow;
