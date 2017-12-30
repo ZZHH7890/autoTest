@@ -4,9 +4,9 @@ import static org.hamcrest.Matchers.equalTo;
 import java.io.IOException;
 import org.testng.annotations.Test;
 
-import autotest.autotest.common.BaseTestCase;
 import autotest.autotest.dataprovider.ApiTestDataPro;
 import autotest.autotest.enums.ApiEnum;
+import autotest.autotest.testcases.BaseTestCase;
 import autotest.autotest.utils.HttpRequest;
 import autotest.autotest.utils.Log;
 import io.restassured.response.Response;

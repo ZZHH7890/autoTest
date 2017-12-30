@@ -1,7 +1,8 @@
-package autotest.autotest.common;
+package autotest.autotest.testcases;
 
 import org.testng.annotations.BeforeMethod;
 
+import autotest.autotest.common.Init;
 import autotest.autotest.utils.Log;
 
 import org.testng.annotations.AfterMethod;
