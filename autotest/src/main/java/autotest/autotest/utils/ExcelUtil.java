@@ -20,7 +20,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  * @mail 767580776@qq.com
  * @automation
  */
-public class HandlerExcel {
+public class ExcelUtil {
 
 	// 向表格单元格中写入token数据
 	public static void setTokenToCell(String excelPath, String excelName, String excelConfigSheet, String data) {

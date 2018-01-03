@@ -10,8 +10,8 @@ import java.util.Iterator;
 import java.util.Properties;
 import autotest.autotest.enums.ApiEnum;
 import autotest.autotest.enums.FileEnum;
-import autotest.autotest.utils.HandlerExcel;
-import autotest.autotest.utils.HttpRequest;
+import autotest.autotest.utils.ExcelUtil;
+import autotest.autotest.utils.HttpUtil;
 import autotest.autotest.utils.Log;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -43,7 +43,7 @@ public class Init {
 	// 用户token写入excel
 	public static void initToken() {
 		try {
-			HandlerExcel.setTokenToCell(FileEnum.EXCEL_PATH.getExcelValue(), FileEnum.EXCEL_NAME.getExcelValue(),
+			ExcelUtil.setTokenToCell(FileEnum.EXCEL_PATH.getExcelValue(), FileEnum.EXCEL_NAME.getExcelValue(),
 					FileEnum.EXCEL_API_SHEET.getExcelValue(), getToken());
 			String succString = "用户token写入excel成功！";
 			Log.info(succString);
@@ -56,7 +56,7 @@ public class Init {
 	// 清空用户token
 	public static void clearToken() {
 		try {
-			HandlerExcel.setTokenToCell(FileEnum.EXCEL_PATH.getExcelValue(), FileEnum.EXCEL_NAME.getExcelValue(),
+			ExcelUtil.setTokenToCell(FileEnum.EXCEL_PATH.getExcelValue(), FileEnum.EXCEL_NAME.getExcelValue(),
 					FileEnum.EXCEL_API_SHEET.getExcelValue(), "");
 			String succString = "清空用户token成功！";
 			Log.info(succString);
@@ -80,14 +80,14 @@ public class Init {
 	// 清空用户地址
 	public static void clearAddress() {
 		try {
-			Response response = HttpRequest.httpRequest(ApiEnum.ADDRESS_LIST.getApiRow());
+			Response response = HttpUtil.httpRequest(ApiEnum.ADDRESS_LIST.getApiRow());
 			JsonPath jsonPath = new JsonPath(response.asString());
 			ArrayList<Integer> addressIds = jsonPath.get("id");
 			if (addressIds.size() != 0) {
 				Iterator<Integer> iterator = addressIds.iterator();
 				while (iterator.hasNext()) {
 					String string = String.valueOf(iterator.next());
-					HttpRequest.httpRequest(ApiEnum.DELETE_ADDRESS.getApiRow(), string);
+					HttpUtil.httpRequest(ApiEnum.DELETE_ADDRESS.getApiRow(), string);
 				}
 				Log.info("清空用户地址成功");
 			} else {

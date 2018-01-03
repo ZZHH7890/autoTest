@@ -15,11 +15,11 @@ import io.restassured.response.Response;
  * @mail 767580776@qq.com
  * @automation
  */
-public class HttpRequest {
+public class HttpUtil {
 	// http请求
 	public static Response httpRequest(int apiRow, String... postData) throws IOException {
 		Log.startTestCase("开始调用httpRequest");
-		Map<String, String> apiMap = HandlerExcel.getApiMap(FileEnum.EXCEL_PATH.getExcelValue(),
+		Map<String, String> apiMap = ExcelUtil.getApiMap(FileEnum.EXCEL_PATH.getExcelValue(),
 				FileEnum.EXCEL_NAME.getExcelValue(), FileEnum.EXCEL_API_SHEET.getExcelValue(), apiRow);
 		Response response = null;
 		switch (apiMap.get("requestMethod")) {

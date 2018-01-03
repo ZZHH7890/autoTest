@@ -6,7 +6,7 @@ import org.testng.annotations.DataProvider;
 
 import autotest.autotest.common.Init;
 import autotest.autotest.enums.FileEnum;
-import autotest.autotest.utils.HandlerExcel;
+import autotest.autotest.utils.ExcelUtil;
 
 /**
  * @author 张大爷
@@ -17,7 +17,7 @@ import autotest.autotest.utils.HandlerExcel;
 public class ApiTestDataPro {
 	@DataProvider(name = "address")
 	public static Object[][] addAddressData() throws IOException {
-		return HandlerExcel.getTestDataMap(FileEnum.EXCEL_PATH.getExcelValue(), FileEnum.EXCEL_NAME.getExcelValue(),
+		return ExcelUtil.getTestDataMap(FileEnum.EXCEL_PATH.getExcelValue(), FileEnum.EXCEL_NAME.getExcelValue(),
 				FileEnum.DATA_ADDRESS_SHEET.getExcelValue());
 	}
 }
