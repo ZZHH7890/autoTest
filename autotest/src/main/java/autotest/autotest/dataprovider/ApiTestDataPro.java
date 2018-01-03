@@ -20,4 +20,9 @@ public class ApiTestDataPro {
 		return ExcelUtil.getTestDataMap(FileEnum.EXCEL_PATH.getExcelValue(), FileEnum.EXCEL_NAME.getExcelValue(),
 				FileEnum.DATA_ADDRESS_SHEET.getExcelValue());
 	}
+	@DataProvider(name = "changeArea")
+	public static Object[][] changeAreaData() throws IOException {
+		return ExcelUtil.getTestDataMap(FileEnum.EXCEL_PATH.getExcelValue(), FileEnum.EXCEL_NAME.getExcelValue(),
+				FileEnum.DATA_CHANGE_AREA_SHEET.getExcelValue());
+	}
 }

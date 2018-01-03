@@ -1,17 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="288" started-at="2018-01-02T07:57:52Z" finished-at="2018-01-02T07:57:52Z">
+  <suite name="Default suite" duration-ms="3086" started-at="2018-01-03T10:44:20Z" finished-at="2018-01-03T10:44:23Z">
     <groups>
+      <group name="P1">
+        <method signature="ApiTest.changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="changeArea" class="autotest.autotest.testcases.zzkgapi.ApiTest"/>
+      </group> <!-- P1 -->
     </groups>
-    <test name="Default test" duration-ms="288" started-at="2018-01-02T07:57:52Z" finished-at="2018-01-02T07:57:52Z">
-      <class name="autotest.autotest.TryDB">
-        <test-method status="PASS" signature="B()[pri:0, instance:autotest.autotest.TryDB@8bd1b6a]" name="B" duration-ms="273" started-at="2018-01-02T15:57:52Z" finished-at="2018-01-02T15:57:52Z">
+    <test name="Default test" duration-ms="3086" started-at="2018-01-03T10:44:20Z" finished-at="2018-01-03T10:44:23Z">
+      <class name="autotest.autotest.testcases.zzkgapi.ApiTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="beforeClass" is-config="true" duration-ms="83" started-at="2018-01-03T18:44:20Z" finished-at="2018-01-03T18:44:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- B -->
-      </class> <!-- autotest.autotest.TryDB -->
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="changeArea" duration-ms="1842" started-at="2018-01-03T18:44:21Z" data-provider="changeArea" finished-at="2018-01-03T18:44:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"name":"自动化测试花园","address":"张大爷的测试","province":"广东省","city":"深圳","latitude":22.410132,"longitude":113.824495,"addressNaviId":18401,"regionId":813395}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[区域切换成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeArea -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:21Z" finished-at="2018-01-03T18:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:22Z" finished-at="2018-01-03T18:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:22Z" finished-at="2018-01-03T18:44:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="changeArea" duration-ms="211" started-at="2018-01-03T18:44:22Z" data-provider="changeArea" finished-at="2018-01-03T18:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"name":"万科城","address":"广东省深圳市龙岗区坂雪岗工业区坂雪岗大道","province":"广东省","city":"深圳","latitude":22.651245,"longitude":114.076476,"addressNaviId":18031,"regionId":2}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[区域切换成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeArea -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:23Z" finished-at="2018-01-03T18:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="changeArea" duration-ms="160" started-at="2018-01-03T18:44:23Z" data-provider="changeArea" finished-at="2018-01-03T18:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"name":"东角山","address":"广东省深圳市南山区","province":"广东省","city":"深圳","latitude":22.408965,"longitude":113.826119,"addressNaviId":18039,"regionId":813395}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[区域切换成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeArea -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:23Z" finished-at="2018-01-03T18:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-01-03T18:44:23Z" finished-at="2018-01-03T18:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:23Z" finished-at="2018-01-03T18:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- autotest.autotest.testcases.zzkgapi.ApiTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -25,20 +25,19 @@ public class BaseTestCase {
 			DOMConfigurator.configure("log4j.xml");
 			Log.info("！！！！！！！！本次测试开始！！！！！！！！");
 			Init.initLog();
-			Init.initToken();
+			// Init.initToken();
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
 			Log.info("！！！！！初始化环境失败！！！！！！！！");
 		}
-
 	}
 
 	@AfterClass
 	public void afterClass() {
 		try {
-			//Init.clearAddress();
-			Init.clearToken();
+			// Init.clearAddress();
+			// Init.clearToken();
 		} catch (Exception e) {
 			// TODO: handle exception
 			Log.info("！！！！！！！清理测试环境失败！！！！！！！");

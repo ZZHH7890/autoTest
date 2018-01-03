@@ -9,8 +9,9 @@ package autotest.autotest.enums;
 public enum ApiEnum {
 	ADD_ADDRESS(5), // 增加地址接口
 	DELETE_ADDRESS(6), // 删除地址接口
-	ADDRESS_LIST(7); // 获取地址列表接口
-
+	ADDRESS_LIST(7), // 获取地址列表接口
+	SEARCH_AREA(25), // 搜索小区接口
+	CHANGE_AREA(26);// 切换小区接口
 	ApiEnum(int apiRow) {
 		this.apiRow = apiRow;
 	}

@@ -18,7 +18,9 @@ public enum FileEnum {
 	
 	EXCEL_API_SHEET("api"), // 接口所在的sheet
 	
-	DATA_ADDRESS_SHEET("address");// 地址接口测试数据所在的sheet
+	DATA_ADDRESS_SHEET("address"),// 地址接口测试数据所在的sheet
+	
+	DATA_CHANGE_AREA_SHEET("changeArea");// 切换小区接口测试数据所在的sheet
 
 	private FileEnum(String excelValue) {
 		// TODO Auto-generated constructor stub
