@@ -57,7 +57,7 @@ public class HttpUtil {
 		}
 
 		if (response != null) {
-			Log.info("测试接口返回：" + response.asString());
+			Log.info("测试接口返回：" + response.prettyPrint());
 		} else {
 			Log.info("接口" + apiMap.get("api") + "请求失败");
 		}

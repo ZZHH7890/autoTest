@@ -1,96 +1,2106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="1" total="85" passed="84">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3086" started-at="2018-01-03T10:44:20Z" finished-at="2018-01-03T10:44:23Z">
+  <suite name="Suite" duration-ms="13894" started-at="2018-01-04T06:38:50Z" finished-at="2018-01-04T06:39:03Z">
     <groups>
       <group name="P1">
-        <method signature="ApiTest.changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="changeArea" class="autotest.autotest.testcases.zzkgapi.ApiTest"/>
+        <method signature="ApiTest.changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="changeArea" class="autotest.autotest.testcases.zzkgapi.ApiTest"/>
+        <method signature="ApiTest.getArea()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="getArea" class="autotest.autotest.testcases.zzkgapi.ApiTest"/>
+        <method signature="ApiTest.addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" class="autotest.autotest.testcases.zzkgapi.ApiTest"/>
       </group> <!-- P1 -->
     </groups>
-    <test name="Default test" duration-ms="3086" started-at="2018-01-03T10:44:20Z" finished-at="2018-01-03T10:44:23Z">
+    <test name="zzkgApiTest" duration-ms="13894" started-at="2018-01-04T06:38:50Z" finished-at="2018-01-04T06:39:03Z">
       <class name="autotest.autotest.testcases.zzkgapi.ApiTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="beforeClass" is-config="true" duration-ms="83" started-at="2018-01-03T18:44:20Z" finished-at="2018-01-03T18:44:20Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeClass" is-config="true" duration-ms="180" started-at="2018-01-04T14:38:50Z" finished-at="2018-01-04T14:38:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="changeArea" duration-ms="1842" started-at="2018-01-03T18:44:21Z" data-provider="changeArea" finished-at="2018-01-03T18:44:22Z">
+        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="changeArea" duration-ms="1861" started-at="2018-01-04T14:38:50Z" data-provider="changeArea" finished-at="2018-01-04T14:38:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{"name":"è‡ªåŠ¨åŒ–æµ‹è¯•èŠ±å›­","address":"å¼ å¤§çˆ·çš„æµ‹è¯•","province":"å¹¿ä¸œçœ","city":"æ·±åœ³","latitude":22.410132,"longitude":113.824495,"addressNaviId":18401,"regionId":813395}]]>
+                <![CDATA[{"name":"×Ô¶¯»¯²âÊÔ»¨Ô°","address":"ÕÅ´óÒ¯µÄ²âÊÔ","province":"¹ã¶«Ê¡","city":"ÉîÛÚ","latitude":22.410132,"longitude":113.824495,"addressNaviId":18401,"regionId":813395}]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[åŒºåŸŸåˆ‡æ¢æˆåŠŸ]]>
+                <![CDATA[ÇøÓòÇÐ»»³É¹¦]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeArea -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:21Z" finished-at="2018-01-03T18:44:21Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:50Z" finished-at="2018-01-04T14:38:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:22Z" finished-at="2018-01-03T18:44:22Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:52Z" finished-at="2018-01-04T14:38:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:22Z" finished-at="2018-01-03T18:44:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="changeArea" duration-ms="211" started-at="2018-01-03T18:44:22Z" data-provider="changeArea" finished-at="2018-01-03T18:44:23Z">
+        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="changeArea" duration-ms="188" started-at="2018-01-04T14:38:52Z" data-provider="changeArea" finished-at="2018-01-04T14:38:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{"name":"ä¸‡ç§‘åŸŽ","address":"å¹¿ä¸œçœæ·±åœ³å¸‚é¾™å²—åŒºå‚é›ªå²—å·¥ä¸šåŒºå‚é›ªå²—å¤§é“","province":"å¹¿ä¸œçœ","city":"æ·±åœ³","latitude":22.651245,"longitude":114.076476,"addressNaviId":18031,"regionId":2}]]>
+                <![CDATA[{"name":"ÖÐÑë²Ö¿â","address":"","province":"¹ã¶«Ê¡","city":"ÉîÛÚÊÐ","latitude":0,"longitude":0,"addressNaviId":0,"regionId":4}]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[åŒºåŸŸåˆ‡æ¢æˆåŠŸ]]>
+                <![CDATA[ÇøÓòÇÐ»»³É¹¦]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeArea -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:23Z" finished-at="2018-01-03T18:44:23Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:52Z" finished-at="2018-01-04T14:38:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="changeArea" duration-ms="160" started-at="2018-01-03T18:44:23Z" data-provider="changeArea" finished-at="2018-01-03T18:44:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{"name":"ä¸œè§’å±±","address":"å¹¿ä¸œçœæ·±åœ³å¸‚å—å±±åŒº","province":"å¹¿ä¸œçœ","city":"æ·±åœ³","latitude":22.408965,"longitude":113.826119,"addressNaviId":18039,"regionId":813395}]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[åŒºåŸŸåˆ‡æ¢æˆåŠŸ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changeArea -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:23Z" finished-at="2018-01-03T18:44:23Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:53Z" finished-at="2018-01-04T14:38:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-01-03T18:44:23Z" finished-at="2018-01-03T18:44:23Z">
+        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="changeArea" duration-ms="184" started-at="2018-01-04T14:38:53Z" data-provider="changeArea" finished-at="2018-01-04T14:38:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"name":"Íò¿Æ³Ç","address":"¹ã¶«Ê¡ÉîÛÚÊÐÁú¸ÚÇøÛàÑ©¸Ú¹¤ÒµÇøÛàÑ©¸Ú´óµÀ","province":"¹ã¶«Ê¡","city":"ÉîÛÚ","latitude":22.651245,"longitude":114.076476,"addressNaviId":18031,"regionId":2}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÇøÓòÇÐ»»³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeArea -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:53Z" finished-at="2018-01-04T14:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="changeArea(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="changeArea" duration-ms="184" started-at="2018-01-04T14:38:53Z" data-provider="changeArea" finished-at="2018-01-04T14:38:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"name":"¶«½ÇÉ½","address":"¹ã¶«Ê¡ÉîÛÚÊÐÄÏÉ½Çø","province":"¹ã¶«Ê¡","city":"ÉîÛÚ","latitude":22.408965,"longitude":113.826119,"addressNaviId":18039,"regionId":813395}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÇøÓòÇÐ»»³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeArea -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:53Z" finished-at="2018-01-04T14:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:53Z" finished-at="2018-01-04T14:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:53Z" finished-at="2018-01-04T14:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="230" started-at="2018-01-04T14:38:53Z" data-provider="address" finished-at="2018-01-04T14:38:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯134","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:53Z" finished-at="2018-01-04T14:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:53Z" finished-at="2018-01-04T14:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="215" started-at="2018-01-04T14:38:53Z" data-provider="address" finished-at="2018-01-04T14:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯135","phone":13514672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:53Z" finished-at="2018-01-04T14:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="248" started-at="2018-01-04T14:38:54Z" data-provider="address" finished-at="2018-01-04T14:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯136","phone":13614672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="146" started-at="2018-01-04T14:38:54Z" data-provider="address" finished-at="2018-01-04T14:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯137","phone":13714672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="8" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="121" started-at="2018-01-04T14:38:54Z" data-provider="address" finished-at="2018-01-04T14:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯138","phone":13814672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="135" started-at="2018-01-04T14:38:54Z" data-provider="address" finished-at="2018-01-04T14:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯139","phone":13914672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="111" started-at="2018-01-04T14:38:54Z" data-provider="address" finished-at="2018-01-04T14:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯150","phone":15014672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="128" started-at="2018-01-04T14:38:54Z" data-provider="address" finished-at="2018-01-04T14:38:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯151","phone":15114672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="141" started-at="2018-01-04T14:38:54Z" data-provider="address" finished-at="2018-01-04T14:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯152","phone":15214672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:54Z" finished-at="2018-01-04T14:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="114" started-at="2018-01-04T14:38:55Z" data-provider="address" finished-at="2018-01-04T14:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯157","phone":15714672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="147" started-at="2018-01-04T14:38:55Z" data-provider="address" finished-at="2018-01-04T14:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯158","phone":15814672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="136" started-at="2018-01-04T14:38:55Z" data-provider="address" finished-at="2018-01-04T14:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯159","phone":15914672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="187" started-at="2018-01-04T14:38:55Z" data-provider="address" finished-at="2018-01-04T14:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯182","phone":18214672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="119" started-at="2018-01-04T14:38:55Z" data-provider="address" finished-at="2018-01-04T14:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯183","phone":18314672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="129" started-at="2018-01-04T14:38:55Z" data-provider="address" finished-at="2018-01-04T14:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯184","phone":18414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="120" started-at="2018-01-04T14:38:55Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯187","phone":18714672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:55Z" finished-at="2018-01-04T14:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="117" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯188","phone":18814672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="112" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯147","phone":14714672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="99" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯178","phone":17814672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="128" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯130","phone":13014672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="115" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯131","phone":13114672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="101" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯132","phone":13214672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="98" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯155","phone":15514672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="96" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯156","phone":15614672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="96" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯185","phone":18514672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:56Z" finished-at="2018-01-04T14:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="94" started-at="2018-01-04T14:38:56Z" data-provider="address" finished-at="2018-01-04T14:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯186","phone":18614672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="98" started-at="2018-01-04T14:38:57Z" data-provider="address" finished-at="2018-01-04T14:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯145","phone":14514672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="111" started-at="2018-01-04T14:38:57Z" data-provider="address" finished-at="2018-01-04T14:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯175","phone":17514672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="108" started-at="2018-01-04T14:38:57Z" data-provider="address" finished-at="2018-01-04T14:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯176","phone":17614672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="168" started-at="2018-01-04T14:38:57Z" data-provider="address" finished-at="2018-01-04T14:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯133","phone":13314672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="170" started-at="2018-01-04T14:38:57Z" data-provider="address" finished-at="2018-01-04T14:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯153","phone":15314672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="97" started-at="2018-01-04T14:38:57Z" data-provider="address" finished-at="2018-01-04T14:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯180","phone":18014672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="96" started-at="2018-01-04T14:38:57Z" data-provider="address" finished-at="2018-01-04T14:38:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯181","phone":18114672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:57Z" finished-at="2018-01-04T14:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="106" started-at="2018-01-04T14:38:57Z" data-provider="address" finished-at="2018-01-04T14:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯189","phone":18914672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="107" started-at="2018-01-04T14:38:58Z" data-provider="address" finished-at="2018-01-04T14:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯177","phone":17714672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="105" started-at="2018-01-04T14:38:58Z" data-provider="address" finished-at="2018-01-04T14:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯173","phone":17314672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="117" started-at="2018-01-04T14:38:58Z" data-provider="address" finished-at="2018-01-04T14:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯170","phone":17014672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="110" started-at="2018-01-04T14:38:58Z" data-provider="address" finished-at="2018-01-04T14:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯171","phone":17114672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="113" started-at="2018-01-04T14:38:58Z" data-provider="address" finished-at="2018-01-04T14:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯198","phone":19814672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="123" started-at="2018-01-04T14:38:58Z" data-provider="address" finished-at="2018-01-04T14:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯199","phone":19914672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="119" started-at="2018-01-04T14:38:58Z" data-provider="address" finished-at="2018-01-04T14:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯166","phone":16614672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="114" started-at="2018-01-04T14:38:58Z" data-provider="address" finished-at="2018-01-04T14:38:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯146","phone":14614672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:58Z" finished-at="2018-01-04T14:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="127" started-at="2018-01-04T14:38:58Z" data-provider="address" finished-at="2018-01-04T14:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯148","phone":14814672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="77" started-at="2018-01-04T14:38:59Z" data-provider="address" finished-at="2018-01-04T14:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"","phone":14814672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÁªÏµÈË²»ÄÜÎª¿Õ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="80" started-at="2018-01-04T14:38:59Z" data-provider="address" finished-at="2018-01-04T14:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"   ","phone":14814672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÁªÏµÈË²»ÄÜÎª¿Õ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="75" started-at="2018-01-04T14:38:59Z" data-provider="address" finished-at="2018-01-04T14:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"*£¿&%@","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÁªÏµÈËÖ»ÄÜÓÉÖÐÎÄ¡¢×ÖÄ¸»òÊý×Ö×é³É]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="75" started-at="2018-01-04T14:38:59Z" data-provider="address" finished-at="2018-01-04T14:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"Ò¼·¡ÈþËÁÎéÂ½Æâ","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÁªÏµÈË×ÖÊýÌ«¶à]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="72" started-at="2018-01-04T14:38:59Z" data-provider="address" finished-at="2018-01-04T14:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"aaaaaaaaaa19","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÁªÏµÈË×ÖÊýÌ«¶à]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="104" started-at="2018-01-04T14:38:59Z" data-provider="address" finished-at="2018-01-04T14:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":0,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="98" started-at="2018-01-04T14:38:59Z" data-provider="address" finished-at="2018-01-04T14:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="FAIL" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="1129" started-at="2018-01-04T14:38:59Z" data-provider="address" finished-at="2018-01-04T14:39:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":"ABC","regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path msg doesn't match.
+Expected: ³É¹¦
+  Actual: ·þÎñÆ÷³öÁËµãÐ¡ÎÊÌâ£¬ÇëÉÔºòÖØÊÔ
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path msg doesn't match.
+Expected: ³É¹¦
+  Actual: ·þÎñÆ÷³öÁËµãÐ¡ÎÊÌâ£¬ÇëÉÔºòÖØÊÔ
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:471)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+	at sun.reflect.GeneratedMethodAccessor137.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:265)
+	at io.restassured.specification.ResponseSpecification$content$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:248)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:268)
+	at autotest.autotest.testcases.zzkgapi.ApiTest.addAddress(ApiTest.java:23)
+	at sun.reflect.GeneratedMethodAccessor160.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:38:59Z" finished-at="2018-01-04T14:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:00Z" finished-at="2018-01-04T14:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:00Z" finished-at="2018-01-04T14:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="97" started-at="2018-01-04T14:39:00Z" data-provider="address" finished-at="2018-01-04T14:39:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":"","regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:00Z" finished-at="2018-01-04T14:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="98" started-at="2018-01-04T14:39:00Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":"  " ,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:00Z" finished-at="2018-01-04T14:39:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="66" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":134146727755,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÊÖ»úºÅÂë¸ñÊ½´íÎó]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="68" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":1341467277,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÊÖ»úºÅÂë¸ñÊ½´íÎó]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="67" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":"137$46&27@6","gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÊÖ»úºÅÂë¸ñÊ½´íÎó]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="71" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":"13a14b72z7","gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÊÖ»úºÅÂë¸ñÊ½´íÎó]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="67" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":"13,14!72?7","gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÊÖ»úºÅÂë¸ñÊ½´íÎó]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="67" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":"1371467 776","gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÊÖ»úºÅÂë¸ñÊ½´íÎó]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="161" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":"","gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÊÖ»úºÅÂë¸ñÊ½´íÎó]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="81" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":"   ","gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÊÖ»úºÅÂë¸ñÊ½´íÎó]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="101" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="119" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"1123Az","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"   ","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:01Z" finished-at="2018-01-04T14:39:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="106" started-at="2018-01-04T14:39:01Z" data-provider="address" finished-at="2018-01-04T14:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"abc","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="116" started-at="2018-01-04T14:39:02Z" data-provider="address" finished-at="2018-01-04T14:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"ABC","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="186" started-at="2018-01-04T14:39:02Z" data-provider="address" finished-at="2018-01-04T14:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"aaAA","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="179" started-at="2018-01-04T14:39:02Z" data-provider="address" finished-at="2018-01-04T14:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"903","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="113" started-at="2018-01-04T14:39:02Z" data-provider="address" finished-at="2018-01-04T14:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"903A","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="120" started-at="2018-01-04T14:39:02Z" data-provider="address" finished-at="2018-01-04T14:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"903a","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="70" started-at="2018-01-04T14:39:02Z" data-provider="address" finished-at="2018-01-04T14:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÇëÌîÐ´µ¥ÔªºÍÃÅÅÆ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="68" started-at="2018-01-04T14:39:02Z" data-provider="address" finished-at="2018-01-04T14:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"   ","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ÇëÌîÐ´µ¥ÔªºÍÃÅÅÆ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="93" started-at="2018-01-04T14:39:02Z" data-provider="address" finished-at="2018-01-04T14:39:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"12 34","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="104" started-at="2018-01-04T14:39:02Z" data-provider="address" finished-at="2018-01-04T14:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"AB CD","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:02Z" finished-at="2018-01-04T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="96" started-at="2018-01-04T14:39:03Z" data-provider="address" finished-at="2018-01-04T14:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"12.34","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="93" started-at="2018-01-04T14:39:03Z" data-provider="address" finished-at="2018-01-04T14:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"ab.cd","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="95" started-at="2018-01-04T14:39:03Z" data-provider="address" finished-at="2018-01-04T14:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"AB@CD","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="102" started-at="2018-01-04T14:39:03Z" data-provider="address" finished-at="2018-01-04T14:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"12+34","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="109" started-at="2018-01-04T14:39:03Z" data-provider="address" finished-at="2018-01-04T14:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"12*34","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addAddress(java.lang.String, java.lang.String)[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="addAddress" duration-ms="126" started-at="2018-01-04T14:39:03Z" data-provider="address" finished-at="2018-01-04T14:39:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"contact":"´óÒ¯","phone":13414672775,"gender":1,"regionId":813395,"latitude":22.408965,"longitude":113.826119,"room1":"12345678910","village":"¶«½ÇÉ½","city1":"ÉîÛÚ","addressNaviId":18039,"building":"×Ô¶¯»¯²âÊÔÂ¥¶°C¶°£¨ÎðÉ¾£©","addressBuildingId":256}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[³É¹¦]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchArea()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="searchArea" duration-ms="152" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchArea -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getArea()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="getArea" duration-ms="114" started-at="2018-01-04T14:39:03Z" depends-on-methods="autotest.autotest.testcases.zzkgapi.ApiTest.changeArea" finished-at="2018-01-04T14:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getArea -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@5bcab519]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-03T18:44:23Z" finished-at="2018-01-03T18:44:23Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:autotest.autotest.testcases.zzkgapi.ApiTest@e580929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-01-04T14:39:03Z" finished-at="2018-01-04T14:39:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- autotest.autotest.testcases.zzkgapi.ApiTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- zzkgApiTest -->
+  </suite> <!-- Suite -->
 </testng-results>
