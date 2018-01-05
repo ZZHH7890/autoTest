@@ -7,8 +7,6 @@ import java.util.Map;
 
 import org.testng.annotations.Test;
 
-import com.relevantcodes.extentreports.model.Log;
-
 import autotest.autotest.common.Init;
 import autotest.autotest.enums.FileEnum;
 import autotest.autotest.utils.ExcelUtil;

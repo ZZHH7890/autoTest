@@ -14,7 +14,7 @@ public class ApiTest extends BaseTestCase {
 	/*
 	 * 测试新增地址接口 验证新增地址接口返回msg
 	 */
-	@Test(enabled = true, dataProvider = "address", dataProviderClass = ApiTestDataPro.class, groups = { "P1" })
+	@Test(enabled = false, dataProvider = "address", dataProviderClass = ApiTestDataPro.class, groups = { "P1" })
 	public void addAddress(String postData, String expectValue) throws IOException {
 		Log.startTestCase("addAddress用例测试开始！");
 		Response response = HttpUtil.httpRequest(ApiEnum.ADD_ADDRESS.getApiRow(), postData);
@@ -25,7 +25,7 @@ public class ApiTest extends BaseTestCase {
 	/*
 	 * 测试选择小区搜索接口 验证接口返回社区id 验证接口返回社区名字
 	 */
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void searchArea() throws IOException {
 		Log.startTestCase("searchArea用例测试开始！");
 		Response response = HttpUtil.httpRequest(ApiEnum.SEARCH_AREA.getApiRow());

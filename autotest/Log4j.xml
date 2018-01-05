@@ -20,6 +20,6 @@
 	<root>
 		<level value="All" />
 		<appender-ref ref="fileAppender" />
-		<appender-ref ref="consoleAppender" />
+		<!-- <appender-ref ref="consoleAppender" /> -->
 	</root>
 </log4j:configuration>
